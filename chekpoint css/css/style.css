@@ -1,0 +1,64 @@
+/* Importing fonts from fonts.google.com to use them my web page */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Questrial|Ropa+Sans');
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.grid-item{
+	width:600px;
+	height:300px;
+	display: inline-block;
+	font-family: 'Bree Serif', serif;
+
+}
+.grid-item:hover{
+	 outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+
+
+}
+.green{
+	background-color: darkgrey;
+	margin-bottom: 100px;
+}
+.red{
+	background-color: darkgrey;
+}
+.yellow{
+	background-color: grey;
+	color: white;
+}
+.black{
+	background-color: grey;
+	color: white;
+}
+.orange{
+	background-color: darkgrey;
+	margin-bottom: 100px;
+}
+.blue{
+	background-color: darkgrey;
+}
+h1{
+	background-image: url('https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d8f98f85b993d535cbbeae311e');
+	color: white;
+	margin: 0px;
+	font-size: 100px;
+	padding-top: 200px;
+	padding-bottom: 140px; 
+	padding-left: 60px;
+	background-size: 100%;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+  font-family: 'Bree Serif', serif;
+}
+h2{
+	 font-family: 'Bree Serif', serif;
+	color:darkblue;
+	font-size: 70px;
+	margin-left: 170px;
+}
+h3{
+	font-size: 150%;
+}
